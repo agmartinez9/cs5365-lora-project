@@ -1,6 +1,7 @@
 # CS5365 — LoRA Re-implementation
 ### Low-Rank Adaptation of Large Language Models
-**Course:** CS 5365 – Deep Learning | **Institution:** University of Texas at El Paso
+**Course:** CS 5365 – Deep Learning | 
+**Institution:** University of Texas at El Paso
 **Group Members:** Veronica Aragon, Angela Martinez
 
 ## Introduction:
