@@ -7,3 +7,9 @@
 This repository contains our re-implementation of **LoRA: Low-Rank Adaptation of Large Language Models** *(Hu et al., ICLR 2022)*. The paper introduces a parameter-efficient fine-tuning method that freezes the weights of a pretrained model and injects trainable low-rank matrices into each Transformer layer — dramatically reducing trainable parameters while maintaining competitive performance.
 
 Our goal is to reproduce the **rank ablation experiment** from Table 5 of the paper, studying how the choice of rank `r` affects adaptation quality and efficiency across GLUE benchmark tasks.
+
+# Data
+This project uses the GLUE benchmark dataset, accessed via the Hugging Face `datasets` library.
+To download automatically, run:
+    python code/train_lora.py --task sst2 --rank 4
+The dataset will be downloaded on first run. No manual setup required.
