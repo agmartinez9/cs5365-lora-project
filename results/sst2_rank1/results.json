@@ -1,0 +1,13 @@
+{
+  "task": "sst2",
+  "rank": 1,
+  "epochs": 1,
+  "metrics": {
+    "eval_loss": 0.1929856687784195,
+    "eval_accuracy": 0.9357798165137615,
+    "eval_runtime": 5.9437,
+    "eval_samples_per_second": 146.711,
+    "eval_steps_per_second": 4.711,
+    "epoch": 1.0
+  }
+}

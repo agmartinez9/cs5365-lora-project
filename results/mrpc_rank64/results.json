@@ -1,0 +1,14 @@
+{
+  "task": "mrpc",
+  "rank": 64,
+  "epochs": 1,
+  "metrics": {
+    "eval_loss": 0.5981246829032898,
+    "eval_accuracy": 0.6936274509803921,
+    "eval_f1": 0.8159057437407953,
+    "eval_runtime": 2.9494,
+    "eval_samples_per_second": 138.333,
+    "eval_steps_per_second": 4.408,
+    "epoch": 1.0
+  }
+}
